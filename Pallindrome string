@@ -1,0 +1,18 @@
+
+int isPalindrome(string S)
+	
+	
+	{
+	    string copy=S;
+	    int s=0;
+	    int n=S.size();
+	    int e=n-1;
+	    while(s<=e){
+	        if(S[s]==S[e]){
+	            s++;
+	            e--;
+	        }
+	        else
+	          return 0;
+	        
+	    }
