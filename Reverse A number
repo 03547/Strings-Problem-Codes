@@ -1,0 +1,12 @@
+
+	long long int reverse_digit(long long int n)
+		{
+		    // Code here
+		    	long long int rev=0,rem;
+		    	while(n){
+		    	    rem=n%10;
+		    	    rev=rev*10+rem;
+		    	    n=n/10;
+		    	}
+		    return rev;
+		}
